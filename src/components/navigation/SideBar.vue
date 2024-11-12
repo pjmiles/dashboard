@@ -27,12 +27,12 @@ const setActiveNav = (index) => {
     </div>
     <!-- user profile -->
     <div class="flex flex-col justify-center items-center p-4">
-      <img alt="avatar" :src="avatar" class="rounded-full w-[80px] h-[80px]" />
+      <img alt="avatar" :src="avatar" class="rounded-full w-[60px] h-[60px]" />
       <p class="mt-2 text-2xl">Robert Grant</p>
       <p class="text-sm text-gray-500">Managing Director</p>
     </div>
     <!-- navigation -->
-    <ul class="flex flex-col flex-grow justify-center items-center gap-6 mt-[-150px]">
+    <ul class="flex flex-col flex-grow justify-center items-center gap-3 mt-[-80px]">
       <li
         v-for="(item, index) in navigationItems"
         :key="index"
@@ -42,12 +42,12 @@ const setActiveNav = (index) => {
         <router-link
           v-if="item.path"
           :to="item.path"
-          class="flex items-center gap-2"
+          class="flex items-center gap-2 text-sm"
           :class="{ 'font-medium': activeNav === index, 'hover:font-medium': true }"
         >
           <p @mouseover="isHovered = index" @mouseleave="isHovered = null">{{ item.label }}</p>
           <span v-if="item.icon" v-show="isHovered === index">
-            <p class="w-6 bg-red-400 text-white rounded-full text-center">{{ item.icon }}</p>
+            <p class="w-5 bg-red-400 text-white rounded-full text-center text-sm">{{ item.icon }}</p>
           </span>
         </router-link>
       </li>
