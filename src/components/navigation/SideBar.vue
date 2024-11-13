@@ -31,7 +31,7 @@ const setActiveNav = (index) => {
         <img alt="avatar" :src="avatar" class="rounded-full w-[50px] h-[50px]" />
       </div>
       <p class="mt-2 font-bold">Robert Grant</p>
-      <p class="text-[8px] text-gray-500">Managing Director</p>
+      <p class="text-[10px] text-gray-500 font-sans">Marketing Director</p>
     </div>
     <!-- navigation -->
     <ul class="flex flex-col flex-grow justify-center items-center gap-[20px]">
@@ -39,7 +39,7 @@ const setActiveNav = (index) => {
         v-for="(item, index) in navigationItems"
         :key="index"
         @click="setActiveNav(index)"
-        class="flex gap-2 items-center cursor-pointer"
+        class="flex gap-2 items-center font-sans cursor-pointer"
       >
         <router-link
           v-if="item.path"
@@ -58,10 +58,10 @@ const setActiveNav = (index) => {
     </ul>
     <!-- log out -->
     <div class="flex justify-center space-x-1 mb-2">
-      <p class="bg-black text-white rounded-full w-5 h-5 text-center cursor-pointer">
-        <i class="pi pi-sign-in text-sm"></i>
+      <p class="bg-black text-white rounded-full w-5 h-5 flex justify-center items-center text-center cursor-pointer">
+        <i class="pi pi-sign-in text-[11px]"></i>
       </p>
-      <p class="text-[12px]">Log out</p>
+      <p class="text-[12px] font-sans">Log out</p>
     </div>
   </div>
 </template>

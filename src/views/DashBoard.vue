@@ -57,7 +57,7 @@
                 <span class="text-red-400">Upgrade</span> Your <br />
                 Crowd
               </p>
-              <p class="text-gray-400 text-[9px]">Pro plan for better results</p>
+              <p class="text-gray-400 text-sm font-sans">Pro plan for better results</p>
             </div>
             <div>
               <div
@@ -78,7 +78,7 @@
             Data updates every 3 hours
           </p>
           <div>
-            <button class="flex items-center space-x-2 py-2 px-3 text-[12px] border rounded-full">
+            <button class="flex items-center space-x-2 py-2 px-3 text-[12px] border rounded-full hover:bg-gray-100">
               <span>01-07 May</span>
               <i class="pi pi-angle-down"></i>
             </button>
@@ -102,7 +102,7 @@
                       class="rounded-full w-full h-full object-cover"
                     />
                   </div>
-                  <p class="text-[12px] font-bold">Vovly Anionvoro</p>
+                  <p class="text-[12px] font-bold font-sans">Vovly Anionvoro</p>
                 </div>
                 <p class="text-gray-400 text-[10px] flex-grow text-left ml-10">
                   @satpartricswilldhjdhdj
@@ -120,7 +120,7 @@
                       class="rounded-full w-full h-full object-cover"
                     />
                   </div>
-                  <p class="text-[12px] font-bold">Mark Nolly</p>
+                  <p class="text-[12px] font-bold font-sans">Mark Nolly</p>
                 </div>
                 <p class="text-gray-400 text-[10px] flex-grow text-left ml-10">@satpartricswill</p>
                 <p class="text-[12px] font-bold">18%</p>
@@ -136,7 +136,7 @@
                       class="rounded-full w-full h-full object-cover"
                     />
                   </div>
-                  <p class="text-[12px] font-bold">Nenci Villy</p>
+                  <p class="text-[12px] font-bold font-sans">Nenci Villy</p>
                 </div>
                 <p class="text-gray-400 text-[10px] flex-grow text-left ml-10">@satpartricswill</p>
                 <p class="text-[12px] font-bold">25%</p>
@@ -144,8 +144,8 @@
             </li>
           </ul>
           <div class="flex items-center cursor-pointer space-x-1 px-6 py-2">
-            <p class="text-[12px] font-medium">View More</p>
-            <i class="pi pi-angle-right text-sm"></i>
+            <p class="text-[12px] font-sans">View More</p>
+            <i class="pi pi-angle-right text-sm mt-[2px]"></i>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
       class="flex items-center justify-between gap-1 bg-[#e9f5f3] w-full h-[200px] p-10 rounded-2xl mt-[50px]"
     >
       <div>
-        <h2 class="text-2xl font-medium mb-4">Channels</h2>
+        <h2 class="text-2xl mb-4">Channels</h2>
         <p class="text-[12px]">
           Your Channels <br />
           statistics for <strong>1 weeks</strong> <br />
@@ -222,12 +222,12 @@
       <div
         class="bg-sky-500 border rounded-xl w-[110px] h-[130px] flex flex-col p-3 shadow-2xl cursor-pointer hover:shadow-lg mr-[-8%]"
       >
-        <p class="text-[12px] mt-2 font-semibold text-white">
+        <p class="mt-2 font-semibold text-white">
           Full <br />
           Stats
         </p>
-        <p class="text-xl font-medium mt-[20px]">
-          <i class="pi pi-chevron-circle-right rounded-lg bg-white"></i>
+        <p class="text-lg font-medium mt-[20px]">
+          <i class="pi pi-angle-right rounded-lg text-gray-400 bg-white"></i>
         </p>
       </div>
     </div>

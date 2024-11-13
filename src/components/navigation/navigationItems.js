@@ -1,7 +1,7 @@
 export default [
-  { label: 'Dashboard', path: '/', icon: 'Da' },
-  { label: 'Insight', path: '/insight', icon: 'In' },
-  { label: 'Report', path: '/report', icon: 'Re' },
-  { label: 'Comments', path: '/comment', icon: 'Co' },
-  { label: 'Channels', path: '/channel', icon: 'Ch' },
+  { label: 'Dashboard', path: '/', icon: '!' },
+  { label: 'Insights', path: '/insight', icon: '!' },
+  { label: 'Reports', path: '/report', icon: '!' },
+  { label: 'Comments', path: '/comment', icon: '!' },
+  { label: 'Channels', path: '/channel', icon: '!' },
 ]
