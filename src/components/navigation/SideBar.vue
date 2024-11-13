@@ -19,7 +19,7 @@ const setActiveNav = (index) => {
 </script>
 
 <template>
-  <div class="bg-[#f2e9e0] w-[200px] h-screen rounded-l-lg flex flex-col">
+  <div class="bg-[#f2e9e0] w-[250px] sticky top-0 h-screen rounded-l-lg lg:flex flex-col">
     <!-- logo -->
     <div class="flex space-x-1 justify-center p-8">
       <img alt="logo" :src="logo" class="w-8 h-8" />
