@@ -113,7 +113,7 @@
             <li class="px-6 py-2">
               <div class="flex items-center gap-3">
                 <div class="flex items-center gap-2 w-1/3">
-                  <div class="flex-shrink-0 rounded-full bg-slate-400 w-[25px] h-[25px]">
+                  <div class="flex-shrink-0 rounded-full bg-yellow-400 w-[25px] h-[25px]">
                     <img
                       :src="avatar"
                       alt="avatar"
@@ -129,7 +129,7 @@
             <li class="px-6 py-2">
               <div class="flex items-center gap-3">
                 <div class="flex items-center gap-2 w-1/3">
-                  <div class="flex-shrink-0 rounded-full bg-slate-400 w-[25px] h-[25px]">
+                  <div class="flex-shrink-0 rounded-full bg-blue-500 w-[25px] h-[25px]">
                     <img
                       :src="avatar"
                       alt="avatar"
@@ -206,7 +206,7 @@
           class="bg-white border rounded-xl w-[110px] h-[130px] flex flex-col items-center text-center shadow-2xl cursor-pointer hover:shadow-lg"
         >
           <div
-            class="bg-orange-500 rounded-full w-7 h-7 flex items-center justify-center mt-[-15px]"
+            class="bg-orange-600 rounded-full w-7 h-7 flex items-center justify-center mt-[-15px]"
           >
             <i class="pi pi-pinterest text-sm rounded-lg text-white"></i>
           </div>
@@ -235,9 +235,7 @@
 </template>
 
 <script setup>
-import upgradeImg from '@/assets/upgradeImg.png'
 import avatar from '@/assets/avatar.jpg'
-import TempChart from '@/assets/line-chart.svg'
 import chartType from '@/assets/chart-2.png'
 </script>
 
