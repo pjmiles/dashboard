@@ -2,16 +2,14 @@
   <div class="w-full px-[60px] py-8">
     <div class="w-full flex justify-between space-x-[80px]">
       <div class="w-1/2 mb-2">
-        <div class="flex justify-between">
+        <div class="flex justify-between items-center">
           <p class="text-3xl font-semibold">Dashboard</p>
-          <span class="space-x-5 mt-1">
-            <i
-              class="pi pi-info-circle bg-red-400 text-white text-lg rounded-lg cursor-pointer"
-            ></i>
+          <span class="space-x-5 mt-1 flex">
+            <i class="pi pi-info-circle bg-red-400 text-white text-lg rounded-lg cursor-pointer"></i>
             <i class="pi pi-cog text-lg cursor-pointer"></i>
           </span>
         </div>
-        <div class="grid grid-cols-3 gap-x-4 w-full justify-items-start mt-[50px]">
+        <div class="grid grid-cols-3 gap-x-4 w-full justify-between mt-[50px]">
           <div>
             <span class="flex items-center space-x-5">
               <div class="border-b border-gray-300 pb-1 flex items-center space-x-5">
@@ -23,7 +21,7 @@
             </span>
             <p class="text-2xl">27,6m</p>
           </div>
-          <div>
+          <div class="ml-8">
             <span class="flex items-center space-x-5">
               <div class="border-b border-gray-300 pb-1 flex items-center space-x-5">
                 <p class="text-xs">Followers</p>
@@ -34,7 +32,7 @@
             </span>
             <p class="text-2xl">219,3k</p>
           </div>
-          <div>
+          <div class="ml-14">
             <span class="flex items-center space-x-5">
               <div class="border-b border-gray-300 pb-1 flex items-center space-x-5">
                 <p class="text-xs">Reports</p>
